@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+#main{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+#main #heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#cnvrt{
+    width: 100%;
+    padding: 40px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset;
+}
+#cnvrt #cel{
+    width: 30%;
+}
+#cnvrt #fah{
+    width: 30%;
+}
+#cnvrt #kel{
+    width: 30%;
+}
+#cnvrt #cel h2{
+    width: 100%;
+    
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#cnvrt #cel h2::first-letter{
+    font-size: 50px;
+}
+#cnvrt #fah h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#cnvrt #fah h2::first-letter{
+    font-size: 50px;
+}
+#cnvrt #kel h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#cnvrt #kel h2::first-letter{
+    font-size: 50px;
+}
+#cnvrt #cel input{
+    width: 100%;
+    padding: 35px 15px 15px 25px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    outline: 3px solid yellow;
+    outline-offset: -9px;
+    font-family: cursive;
+    transition: all 1s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset;
+}
+#cnvrt #cel input:focus{
+    box-shadow: rgb(213, 18, 14) 0px 0px 30px 25px;
+}
+#cnvrt #fah input{
+    width: 100%;
+    padding: 35px 15px 15px 25px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    outline: 3px solid yellow;
+    outline-offset: -9px;
+    font-family: cursive;
+    transition: all 1s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset;
+}
+#cnvrt #fah input:focus{
+    box-shadow: rgb(213, 18, 14) 0px 0px 30px 25px;
+}
+#cnvrt #kel input{
+    width: 100%;
+    padding: 35px 15px 15px 25px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    outline: 3px solid yellow;
+    outline-offset: -9px;
+    font-family: cursive;
+    transition: all 1s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset;
+}
+#cnvrt #kel input:focus{
+    box-shadow: rgb(213, 18, 14) 0px 0px 30px 25px;
+}
+#res{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#reset{
+    padding: 11px 30px;
+    color: aliceblue;
+    background-color: blueviolet;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    transition: all 1s;
+    outline: 3px solid yellow;
+    outline-offset: -5px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset;
+}
+#reset:hover{
+    background-color: white;
+    color: blueviolet;
+}
